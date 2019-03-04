@@ -1,6 +1,5 @@
-from ash import swap, unsorted, mergeSort
+from ash import swap, unsorted, mergeSort, ShellSort
 from typing import List
-import numpy as np
 
 
 def bubble_sort(alist: List[str]):
@@ -49,3 +48,4 @@ def selectionSort(alist):
 # insertion_sort(unsorted)
 # selectionSort(unsorted)
 mergeSort(unsorted)
+# ShellSort(unsorted)
