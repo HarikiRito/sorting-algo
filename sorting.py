@@ -1,4 +1,4 @@
-from ash import swap, unsorted, mergeSort, ShellSort
+from ash import swap, unsorted, mergeSort, ShellSort, quickSort
 from typing import List
 
 
@@ -47,5 +47,7 @@ def selectionSort(alist):
 # bubble_sort(unsorted)
 # insertion_sort(unsorted)
 # selectionSort(unsorted)
-mergeSort(unsorted)
+# mergeSort(unsorted)
 # ShellSort(unsorted)
+quickSort(unsorted, 0, len(unsorted) - 1)
+
